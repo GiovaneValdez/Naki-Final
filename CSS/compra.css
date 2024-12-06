@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    overflow-y: hidden;
+}
+
+.compras {
+    display: flex;
+    width: 1870px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+.fotos-tenis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.image-tenis {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    border-color: black;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.image-tenis:hover {
+    transform: scale(170%,170%);
+    transition: 0.25s;
+}
+
+.imagem-grandona {
+    display: flex;
+    width: 550px;
+    height: 550px;
+    border:3px solid black;
+    margin: 70px;
+    border-radius: 5px;
+    
+
+}
+
+.imagem-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-descricao{
+    display: flex;
+    font-family:montserrat;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.preco{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.filtro-branco input{
+    width: 330px;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    border: 0;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: montserrat;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: left;
+}
+
+.botao1 input{
+    background-color: transparent;
+    border-color: black;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.botao2 input{
+    background-color: transparent;
+    border-color: black;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.botao1:hover{
+    transition: 0.3s;
+    background-color: rgb(117, 117, 117);
+}
+
+.botao2:hover{
+    transition: 0.3s;
+    background-color:  rgb(116, 116, 116);
+}
+
+.tamanho{
+    margin-left: -1;
+    
+}
+

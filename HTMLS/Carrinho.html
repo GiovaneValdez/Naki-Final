@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/stylecarrinho.css">
+    <link rel="stylesheet" href="../CSS/styleprod.css">
+    <link rel="icon" type="image/png" href="../imagens/NAKI/NAKI (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wght@300..700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <title>NAKI</title>
+</head>
+
+<body>
+    <script>
+        function abrirPagina(){
+            window.location.href = "comprafinal.html";  // Caminho para a página local
+            return false;  // Impede o envio do formulário
+        }
+    </script>
+    <header class="cabecalho">
+        <div class="banner">
+            <a href="../index.html"><img src="../imagens/NAKI/NAKI (1).png" alt="logo NAKI"></a>  
+        </div>
+        <div class="menu-pesquisa">
+            <div class="espaço1">
+            </div>
+            <div class="menu-pesquisa-paginas">
+                <a href="../index.html">HOME</a>
+                <a href="feminino.html">FEMININO</a>
+                <a href="masculino.html">MASCULINO</a>
+                <a href="infantil.html">INFANTIL</a>
+                <a href="Sobre.html">SOBRE</a>
+            </div>
+            <div class="espaço2">
+            </div>
+            <div class="menu-pesquisa-pesquisa">
+                <input type="text" name="" placeholder="Buscar..." id="">
+            </div>
+            <form>
+
+                <button class="btn-info1" type="submit" aria-label="Pesquisar">
+                    <img src="../imagens/NAKI/LUPA.png" height="20px" width="20px">
+
+            </form>
+
+            <a href="Carrinho.html" class="car"></a>
+        </div>
+    </header>
+    <center>
+        <h1 class="titulo2">SEU CARRINHO</h1>
+    </center>
+    <div class="seuspedidos">
+        <div class="pedidos">
+            <p class="textpedidos">ÚLTIMOS PEDIDOS</p>
+            <p class="textpedido">Você não possui produtos em seu carrinho.</p>
+            <div>
+                <a href="../index.html"><input type="button" value="&#10094; &ensp;CONTINUAR COMPRANDO"
+                        class="continuarcomprando"></a>
+            </div>
+        </div>
+    </div>
+    <div class="compra">
+        <div class="compra2">
+            <h1 class="titulo3">INSIRA SEUS DADOS</h1>
+            <form onsubmit="return abrirPagina();">
+                <div class="dados1">
+                    <input type="text" placeholder="Insira seu nome..." pattern="[A-Za-z]+" class="dados" required>
+                    <input type="text" placeholder="Insira seu sobrenome..." pattern="[A-Za-z]+" class="dados" required>
+                    <input type="text" placeholder="Insira seu endereço..." pattern="[A-Za-z]+" class="dados" required>
+                    <input type="text" placeholder="Complemento opcional..." pattern="[A-Za-z]+" class="dados">
+                    <h1 class="titulo4">DADOS DE PAGAMENTO</h1>
+                    <input type="number" placeholder="Insira o número do cartão..." class="dados"  maxlength="9999999999999999" required>
+                    <input type="text" placeholder="Insira o nome do titular..." pattern="[A-Za-z]+" max="9999" class="dados" required>
+                    <input type="number" placeholder="Insira data de vencimento..." class="dados" max="9999" required>
+                    <input type="number" placeholder="Insira o CVC..." class="dados" max="999" required><br>
+                    <input type="submit" value="Enviar" class="botao">
+                </div>
+            </form>
+            <h1 class="titulo5">OPÇÕES DE ENVIO</h1>
+            <div class="envio">
+                <form>
+                    <label>
+                        <br>
+                        <input type="radio" name="opcao" name="opcao" required> <img src="../imagens/NAKI/correios-logo-5.png"
+                            width="100px" height="23px"> &ensp;R$7,90 / 7 DIAS ÚTEIS
+                    </label><br><br>
+
+                    <label>
+                        <input type="radio" name="opcao" name="opcao" required> <img src="../imagens/NAKI/jadlog-logo.png"
+                            width="80px" height="25px"> &ensp;R$14,90 / 11 DIAS ÚTEIS
+                    </label><br><br>
+
+                    <label>
+                        <input type="radio" name="opcao" name="opcao" required> <img src="../imagens/NAKI/loggi-logo.png"
+                            width="80px" height="23px"> &ensp;R$4,30 / 15 DIAS ÚTEIS
+                    </label><br><br>
+                    <label>
+                        <input type="radio" name="opcao" name="opcao" required> <img src="../imagens/NAKI/sedex-logo-4.png"
+                            width="80px" height="23px"> &ensp;R$30,15 / 3 DIAS ÚTEIS
+                    </label><br>
+                </form>
+            </div>
+                <h1 class="titulo6">OU ESCANEIE O QR CODE PARA PIX</h1>
+                <div class="divqrcode">
+                    <img src="../imagens/NAKI/QRCODE.png" class="qrcode">
+                </div>
+                <div class="formadepagamento">
+                    <h1 class="titulo7">MÉTODOS DE PAGAMENTO</h1>
+                    <img src="../imagens/NAKI/image (1).png" class="visa">
+                    <img src="../imagens/NAKI/image (2).png" class="elo">
+                    <img src="../imagens/NAKI/image (3).png" class="hipercard">
+                    <img src="../imagens/NAKI/image (4).png" class="discover">
+                    <img src="../imagens/NAKI/image (5).png" class="pix">
+                    <img src="../imagens/NAKI/image.png" class="mastercard">
+                </div>
+            
+        </div>
+    </div>
+
+</html>

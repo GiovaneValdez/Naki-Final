@@ -1,0 +1,138 @@
+.sobrenos {
+    display: flex;
+    justify-content: center;
+    height: 760px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 1720px;
+    background-color: #393837;
+    border-radius: 10px;
+}
+
+.sobrenos2 {
+    display: flex;
+    justify-content: center;
+    height: 725px;
+    margin-top: 2%;
+    width: 1720px;
+    background-color: #ecebe9;
+    border-radius: 10px;
+}
+
+.sobre{
+    color: red;
+}
+
+.sobrenos3{
+    margin-top: 1%;
+}
+
+body{
+    font-family: montserrat;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.textodapaginasobre{
+    height: 500px;
+    width: 800px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-right: 800px;
+    margin-top: 2%;
+}
+
+.imagemsobre{
+    margin-top: -480px;
+    margin-left: 60%;
+    display: flex;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.botãodecontato{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #b4b4b4;
+    margin-top: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    border-color: transparent;
+}
+
+.botãodecontato:hover{
+    background-color: #858585;
+    transition: 0.4s;
+}
+
+.botãodecontato:active{
+    background-color: rgb(116, 116, 116);
+    transition: 0.2s;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-top: -1px;
+    color: #2b2b2b;
+}
+
+.whats{
+    display: flex;
+    width: 25px;
+    margin-top: 150px;
+}
+
+.tiktok{
+    display: flex;
+    width: 23px;
+    margin-left: 10px;
+}
+
+.insta{
+    display: flex;
+    width: 29px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.gmail{
+    display: flex;
+    width: 29px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.numero{
+    display: flex;
+    margin-top: -23px;
+    margin-left: 27px;
+}
+
+.numero2{
+    display: flex;
+    margin-top: -44px;
+    margin-left: 192px;
+}
+
+.numero3{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 325px;
+}
+
+.numero4{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 510px;
+}
+
+.endereco{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 1270px;
+}

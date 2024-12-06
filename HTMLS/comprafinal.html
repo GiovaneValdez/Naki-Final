@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/styleprod.css">
+    <link rel="stylesheet" href="../CSS/stylecomprafinal.css">
+    <link rel="icon" type="image/png" href="../imagens/NAKI/NAKI (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Fredoka:wght@300..700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <title>NAKI</title>
+</head>
+
+<body>
+    <script>
+        // Função para formatar a data
+        function obterData() {
+            const data = new Date();
+            const dia = data.getDate().toString().padStart(2, '0'); // Adiciona zero à esquerda, se necessário
+            const mes = (data.getMonth() + 1).toString().padStart(2, '0'); // Mes começa em 0, por isso adiciona +1
+            const ano = data.getFullYear();
+            return `${dia}/${mes}/${ano}`;
+        }
+
+        // Atualiza o conteúdo do elemento com id="data"
+        document.getElementById('data').textContent = obterData();
+    </script>
+    <header class="cabecalho">
+        <div class="banner">
+            <a href="../index.html"><img src="../imagens/NAKI/NAKI (1).png" alt="logo NAKI"></a>
+        </div>
+
+        <div class="menu-pesquisa">
+            <div class="espaço1">
+            </div>
+            <div class="menu-pesquisa-paginas">
+                <a href="../index.html">HOME</a>
+                <a href="feminino.html">FEMININO</a>
+                <a href="masculino.html">MASCULINO</a>
+                <a href="infantil.html">INFANTIL</a>
+                <a href="Sobre.html" class="sobre">SOBRE</a>
+            </div>
+            <div class="espaço2">
+            </div>
+            <div class="menu-pesquisa-pesquisa">
+                <input type="text" name="" placeholder="Buscar..." id="">
+            </div>
+            <form>
+                <button class="btn-info1" type="submit" aria-label="Pesquisar">
+                    <img src="../imagens/NAKI/LUPA.png" height="20px" width="20px">
+            </form>
+            <a href="Carrinho.html" class="car"></a>
+        </div>
+    </header>
+    <h1 class="titulo1">SUA COMPRA FOI CONCLUÍDA COM SUCESSO!</h1>
+    <div class="fundo1">
+        <div class="fundo2">
+            <div class="fundinho1">
+                <div class="fundinho2">
+                    <img src="../imagens/FEMININO/FEMININO 01 BLACK.png" class="imgexemplo">
+                </div>
+            </div>
+            <h1 class="titulo2">SEU PEDIDO FOI ENVIADO AO NOSSO SISTEMA E LOGO SERÁ ENVIADO</h1>
+            <div class="rastreio">
+                <img src="../imagens/MASCULINO/Sem título (1).png" class="imagemrastreio">
+            </div>
+            <h1 class="titulo3">OBRIGADO PELA PREFERÊNCIA!</h1>
+            <h1 class="titulo4">ESCANEIE O CÓDIGO QR PARA RASTREIO DA TRANSPORTADORA:</h1>
+            <img src="../imagens/NAKI/QRCODE.png" class="qrcode">
+        </div>
+    </div>
+</body>
+</html>

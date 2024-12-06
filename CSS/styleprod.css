@@ -1,0 +1,41 @@
+.btn-info1 {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    background-color: transparent;
+    margin-right: 20px;
+    border-color: transparent;
+}
+
+
+
+
+.car {
+    display: inline-block;
+    /* Para o link ter tamanho */
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    text-align: center;
+    /* Para centralizar o texto */
+    /* Para centralizar o texto verticalmente */
+    color: white;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+    background-image: url('../imagens/NAKI/CARRINHHO.png');
+    /* Caminho da imagem */
+    background-size: cover;
+    /* A imagem cobre toda a área do link */
+    background-position: center;
+    /* Centraliza a imagem */
+}
+
+.imgproduto{
+    transition: 0.25s;
+}
+
+.imgproduto:hover{
+    transform: translate(-4.5%,-5%);
+    transition: 0.25s;
+}

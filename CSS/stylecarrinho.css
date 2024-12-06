@@ -1,0 +1,271 @@
+.titulo2{
+    font-size:70px;
+    margin-top: -0.1%;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.seuspedidos{
+    display: flex;
+    width: 350px;
+    height: 650px;
+    background-color: gray;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.pedidos{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left:7%;
+}
+
+.textpedidos{
+    display: flex;
+    margin-top: -0.5px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-wrap: nowrap;
+}
+
+.textpedido{
+    display: flex;
+    margin-top: 60px;
+    margin-right: -300px;
+    margin-left: -220px;
+    text-wrap: nowrap;
+}
+
+.continuarcomprando{
+    display: flex;
+    margin-top: 570px;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;  
+    background-color: rgb(165, 165, 165);
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.continuarcomprando:hover{
+    background-color: rgb(185, 185, 185);
+    transition: 0.4s;
+}
+
+.continuarcomprando:active{
+    background-color: rgb(209, 209, 209);
+    transition: 0.2s;
+}
+
+.compra{
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    background-color: gray;
+    margin-left: 600px;
+    margin-top: -650px;
+    border-radius: 10px;
+}
+
+.compra2{
+    display: flex;
+    width: 1200px;
+    height: 610px;
+    background-color: rgb(202, 202, 202);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.titulo3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -0.5px;
+    font-size: 28px;
+}
+
+.dados{
+    margin-top:20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.dados1{
+    width: 500px;
+    height: 500px;
+    margin-left: -300px;
+    margin-top: 40px;
+}
+
+.dados1 input[type="text"]{
+    margin-top: -5px;
+}
+.dados1 input[type="number"]{
+    margin-top: -5px;
+}
+.dados1 input[type="submit"]{
+    margin-top: 25px;
+    width: 370px;
+    height: 35px;
+
+}
+.divisao{
+    display: flex;
+    margin-top: -530px;
+    margin-left: 100px;
+    background-color: rgb(102, 102, 102);
+    width: 5px;
+    height: 590px;
+}
+
+.divisao1{
+    display: flex;
+    margin-top: 140px;
+    margin-left: -520px;
+    background-color: rgb(102, 102, 102);
+    width: 410px;
+    height: 5px;
+    
+}
+
+.titulo4{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.dados2{
+    width: 500px;
+    height: 500px;
+    margin-left: -390px;
+    margin-top: 190px;
+}
+
+.divisao2{
+    display: flex;
+    margin-top: 300px;
+    margin-left: -520px;
+    background-color: rgb(102, 102, 102);
+    width: 410px;
+    height: 5px;   
+    
+}
+
+.titulo5{
+    display: flex;
+    margin-left: -410px;
+    margin-top: 310px;
+    font-size: 28px;
+}
+
+.envio{
+    display: flex;
+    width: 360px;
+    height: 220px;
+    background-color: white;
+    margin-top: 360px;
+    margin-left: -290px;
+    border-radius: 5px;
+}
+
+.titulo6{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.qrcode{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: -400px;
+    margin-top: 80px;
+}
+
+.formadepagamento{
+    display: flex;
+    margin-top: 420px;
+    margin-left: -390px;
+}
+
+.visa{
+    width: 50px;
+    height: 50px;
+    margin-top: 110px;
+    margin-left: -420px;
+}
+
+.titulo7{
+    display: flex;
+    font-size: 40px;
+    margin-left: -45px;
+}
+
+.elo{
+    width: 50px;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.mastercard{
+    width: 50px;
+    height: 50px;
+    margin-top: 110px;
+    margin-left: 20px;
+
+}
+
+.hipercard{
+    width: 50px;
+    height: 40px;
+    margin-top: 115px;
+    margin-left: 20px;
+
+}
+
+.discover{
+    width: 70px;
+    height: 50px;
+    margin-top: 115px;
+    margin-left: 20px;
+}
+
+.pix{
+    width: 50px;
+    height: 50px;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.botao{
+    border-color: transparent;
+    background-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.botao:hover{
+    transform: scale(105%,105%);
+    transition: 0.25s;
+    background-color: rgb(182, 182, 182);
+}
+
+.botao:active{
+    background-color: rgb(146, 146, 146);
+}

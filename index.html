@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/stylehome.css">
+    <link rel="stylesheet" href="CSS/styleprod.css">
+    <link rel="icon" type="image/png" href="imagens/NAKI/NAKI (1).png">
+    <title>NAKI</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="banner">
+            <a href="index.html"><img src="imagens/NAKI/NAKI (1).png" alt="logo NAKI"></a>
+        </div>
+        <div class="menu-pesquisa">
+            <div class="espaço1">
+            </div>
+            <div class="menu-pesquisa-paginas">
+                <a href="index.html">
+                    <font color="red">HOME</font>
+                </a>
+                <a href="HTMLS/feminino.html">FEMININO</a>
+                <a href="HTMLS/masculino.html">MASCULINO</a>
+                <a href="HTMLS/infantil.html">INFANTIL</a>
+                <a href="HTMLS/Sobre.html">SOBRE</a>
+            </div>
+            <div class="espaço2">
+            </div>
+            <div class="menu-pesquisa-pesquisa">
+                <input type="text" name="" placeholder="Buscar..." id="">
+            </div>
+            <form>
+                <button class="btn-info1" type="submit" aria-label="Pesquisar">
+                    <img src="imagens/NAKI/LUPA.png" height="20px" width="20px">
+            </form>
+            <a href="HTMLS/Carrinho.html " class="car"></a>
+    </header>
+    <main class="main-home">
+
+        <div class="slider">
+            <div class="slides">
+                <div class="slide fade">
+                    <img src="imagens/NAKI/ALL YOUR CONFORT (3).png" alt="Imagem 1">
+                </div>
+                <div class="slide fade">
+                    <img src="imagens/NAKI/1 (1).png" alt="Imagem 2">
+                </div>
+                <div class="slide fade">
+                    <img src="imagens/NAKI/Design sem nome.png" alt="Imagem 3">
+                </div>
+            </div>
+
+            <!-- Botões de navegação -->
+            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
